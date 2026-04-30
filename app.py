@@ -18,7 +18,7 @@ cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi',
        'Visakhapatnam', 'Pune', 'Raipur', 'Ranchi', 'Abu Dhabi',
        'Sharjah', 'Mohali', 'Bengaluru']
 
-pipe = pickle.load(open(r'C:\Users\Abhishek sharma\Artificial Intelligence\Machine Learning\Projects\IPl Win Probability\pipe.pkl','rb'))
+pipe = pickle.load(open('pipe.pkl','rb'))
 st.set_page_config(page_title="IPL win predictor -Second Inning",page_icon="🧊",initial_sidebar_state="expanded")
 st.title("IPL Win Predictor - Second Innings")
 
